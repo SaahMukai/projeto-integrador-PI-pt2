@@ -1,7 +1,7 @@
 # Projeto Integrador - Sistema de Cadastros Universitários
 
 ## 👥 Integrantes
-- Sabrina Mukai
+- Sabrina Mukai Nishidate
 - Anna Clara Meirelles Ianzer
 - Gabriel Oliveira 
 
