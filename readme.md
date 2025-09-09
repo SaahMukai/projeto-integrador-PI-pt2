@@ -26,3 +26,6 @@ A entrega foi dividida em duas fases:
 
 ### [2. Descrição dos Casos de Uso](realização_matricula.md)
 
+### 3. Diagrama de Classes
+![Diagrama de Classes](./diagramas/diagramaclasses.jpg)
+
