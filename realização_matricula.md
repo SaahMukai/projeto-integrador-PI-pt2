@@ -1,4 +1,4 @@
-1. Cadastrar novo curso
+## 1. Cadastrar novo curso
 
  Ator Principal: Administrador
  Pré-condição: O administrador precisa estar autenticado no sistema.
@@ -14,7 +14,7 @@
  Pós-condição: O curso estará disponível para os alunos visualizarem e se matricularem.
 
 
- 2. Realizar matrícula em curso
+## 2. Realizar matrícula em curso
 
  Ator Principal: Aluno
  Pré-condição: O aluno deve estar logado na plataforma.
@@ -29,7 +29,7 @@
  Pós-condição: O aluno estará matriculado no curso escolhido.
 
 
- 3. Realizar login na plataforma
+## 3. Realizar login na plataforma
 
 Ator Principal: Qualquer usuário
  Pré-condição: O usuário precisa possuir um cadastro válido.
@@ -45,7 +45,7 @@ Ator Principal: Qualquer usuário
  Pós-condição: O usuário tem acesso à plataforma com sua conta.
 
 
- 4. Emitir certificado de conclusão
+ ## 4. Emitir certificado de conclusão
 
  Ator Principal: Aluno
  Pré-condição: O aluno deve ter completado todos os módulos do curso.
@@ -59,7 +59,7 @@ Ator Principal: Qualquer usuário
  Pós-condição: O aluno terá acesso ao certificado digital do curso.
 
 
- 5. Avaliar curso
+## 5. Avaliar curso
  
  Ator Principal: Aluno
  Pré-condição: O aluno deve estar matriculado no curso e ter acessado ao menos um módulo.
