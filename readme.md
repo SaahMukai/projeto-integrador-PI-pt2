@@ -29,3 +29,40 @@ A entrega foi dividida em duas fases:
 ### 3. Diagrama de Classes
 ![Diagrama de Classes](./diagramas/diagramaclasses.jpg)
 
+## Fase 2 - Protótipos de Interface
+
+Os protótipos foram desenvolvidos no [Figma](https://www.figma.com/proto/PdHoaIL4xZenHj2SN9k1K9/PI---Protótipos-Cadastros?node-id=11-41&p=f&t=irHZogmkbT4IBl6c-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A2).
+
+### Fluxo do Formulário
+
+Neste projeto, optamos por um fluxo direto de formulário. O usuário acessa o link do formulário e preenche as informações solicitadas.
+
+Acesso: O usuário recebe o link direto e seleciona qual cadastro preencher.
+
+Preenchimento: É possível selecionar categorias como Pessoa Física, Aluno, Professor ou Fornecedor.
+
+Navegação: Ao clicar em Salvar ou Cancelar, o usuário é direcionado automaticamente para a tela inicial.
+
+Progresso: Cada página representa uma etapa do preenchimento; indicativos de progresso podem ser adicionados se necessário.
+
+#### Observações.
+
+O protótipo do Figma reflete exatamente este fluxo, permitindo visualizar as transições entre as páginas.
+
+
+### Exemplos de Telas
+
+- Cadastro de Pessoa Física  
+![Pessoa Física](./prototipos/pessoa_fisica.jpg)
+
+- Cadastro de Pessoa Jurídica  
+![Pessoa Jurídica](./prototipos/pessoa_juridica.jpg)
+
+- Cadastro Aluno
+![Aluno](./prototipos/aluno.jpg)
+
+- Cadastro Professor
+![Professor](./prototipos/professor.jpg)
+
+- Cadastro Fornecedor
+![Fornecedor](./prototipos/fornecedor.jpg)
