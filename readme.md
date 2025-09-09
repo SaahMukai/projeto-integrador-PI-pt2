@@ -29,6 +29,53 @@ A entrega foi dividida em duas fases:
 ### 3. Diagrama de Classes
 ![Diagrama de Classes](./diagramas/diagramaclasses.jpg)
 
+#### C[odigo utilizado no dbdiagram.io
+
+Table Pessoa {
+  id int [pk]
+  nome varchar
+  endereco varchar
+  telefone varchar
+  email varchar
+}
+
+Table PessoaFisica {
+  id int [pk]
+  cpf varchar
+  dataNascimento date
+}
+
+Table PessoaJuridica {
+  id int [pk]
+  cnpj varchar
+  razaoSocial varchar
+}
+
+Table Aluno {
+  id int [pk]
+  matricula varchar
+  curso varchar
+}
+
+Table Professor {
+  id int [pk]
+  matricula varchar
+  departamento varchar
+  especialidade varchar
+}
+
+Table Fornecedor {
+  id int [pk]
+  categoria varchar
+  produtoServico varchar
+}
+
+Ref: PessoaFisica.id > Pessoa.id
+Ref: PessoaJuridica.id > Pessoa.id
+Ref: Aluno.id > PessoaFisica.id
+Ref: Professor.id > PessoaFisica.id
+Ref: Fornecedor.id > PessoaJuridica.id 
+
 ## Fase 2 - Protótipos de Interface
 
 Os protótipos foram desenvolvidos no [Figma](https://www.figma.com/proto/PdHoaIL4xZenHj2SN9k1K9/PI---Protótipos-Cadastros?node-id=11-41&p=f&t=irHZogmkbT4IBl6c-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A2).
