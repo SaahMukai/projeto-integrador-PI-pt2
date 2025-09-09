@@ -71,10 +71,15 @@ Table Fornecedor {
 }
 
 Ref: PessoaFisica.id > Pessoa.id
+
 Ref: PessoaJuridica.id > Pessoa.id
+
 Ref: Aluno.id > PessoaFisica.id
+
 Ref: Professor.id > PessoaFisica.id
+
 Ref: Fornecedor.id > PessoaJuridica.id 
+
 
 ## Fase 2 - Protótipos de Interface
 
