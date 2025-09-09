@@ -24,5 +24,6 @@ A entrega foi dividida em duas fases:
 
 ---
 
-### 2. Descrição dos Casos de Uso
+### [2. Descrição dos Casos de Uso](projeto-integrador-PI-pt2
+/realização_matricula.md)
 
